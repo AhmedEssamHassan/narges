@@ -8,8 +8,6 @@ const Home = () => {
   const { path } = useRouteMatch();
   return (
     <div>
-      <h1>home</h1>
-
       <Switch>
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
